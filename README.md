@@ -52,7 +52,7 @@ cd path/to/your/dir
 ```
 ### 3. Run the solvers via CNF File:
 ```bash
-python dpll.py [input_example].cnf
-python pure_resolution.py [input_example].cnf
-python davis_putnam.py [input_example].cnf
+python Resolution.py [input_example].cnf
+python DP.py [input_example].cnf
+python DPLL.py [input_example].cnf
 ```
