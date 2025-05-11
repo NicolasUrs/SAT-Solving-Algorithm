@@ -9,7 +9,6 @@ Welcome to my SAT solver collection! 🎉 I’m [Your Name], a passionate comput
 | Pure Resolution | `pure_resolution.py` | A classic approach that resolves clauses until a contradiction or a fixed point is reached. |
 | Davis-Putnam | `davis_putnam.py` | A variable elimination technique that simplifies the formula using resolution. |
 | DPLL | `dpll.py` | A backtracking algorithm with unit propagation and pure literal elimination. |
-| PySAT Benchmark | `pysat_benchmark.py` | Benchmarking tool to test modern SAT solvers (e.g., Glucose3, Glucose4). |
 
 ## 🛠️ How to Run the SAT Solvers
 
@@ -20,4 +19,4 @@ To run one of the solvers, follow these easy steps:
 3. Run one of the solvers with a CNF file:
 
 ```bash
-python dpll.py --input example.cnf
+python dpll.py input example.cnf
