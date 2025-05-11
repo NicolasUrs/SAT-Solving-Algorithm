@@ -19,4 +19,4 @@ To run one of the solvers, follow these easy steps:
 3. Run one of the solvers with a CNF file:
 
 ```bash
-python dpll.py input example.cnf
+python dpll.py [input_example].cnf
