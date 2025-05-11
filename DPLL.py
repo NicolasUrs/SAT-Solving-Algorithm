@@ -1,8 +1,8 @@
 """
 DPLL (Davis-Putnam-Logemann-Loveland) SAT Solver
 Reads a DIMACS CNF file and determines satisfiability using the DPLL algorithm.
-Run the code in terminal as python DPLL.py sat.cnf for sat
-Run the code in terminal as python DPLL.py unsat.cnf for unsat
+Run the code in terminal as: python DPLL.py sat.cnf for sat
+Run the code in terminal as: python DPLL.py unsat.cnf for unsat
 """
 import sys
 import time
