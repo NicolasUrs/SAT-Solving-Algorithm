@@ -27,8 +27,22 @@ To run one of the solvers, follow these easy steps:
 
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/NicolasUrs/SAT-Solving-Algorithm
+git clone https://github.com/NicolasUrs/SAT-Solving-Algorithm 
 ```
+if u don't have the git on yout local machine , use the folllowing command:
+
+On windows:
+
+```bash
+winget install --id Git.Git -e --source winget
+```
+
+On linux:
+```bash
+sudo apt update
+sudo apt install git
+```
+
 or you can just download it :)
 
 ### 2. Navigate to the file:
