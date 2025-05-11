@@ -1,8 +1,8 @@
 """
 Resolution-based SAT Solver
 Reads a DIMACS CNF file and determines satisfiability using resolution.
-Run the code in terminal as python Resolution.py sat.cnf for sat
-Run the code in terminal as python Resolution.py unsat.cnf for unsat
+Run the code in terminal as: python Resolution.py sat.cnf for sat
+Run the code in terminal as: python Resolution.py unsat.cnf for unsat
 """
 import sys
 import time
