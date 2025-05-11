@@ -1,21 +1,23 @@
-# SAT-Solving-Algorithm
+# SAT-Solving-Algorithm by [Urs Nicolas Robert] 🚀
 
-🔧 How to Run the SAT Solvers?
+Welcome to my SAT solver collection! 🎉 I’m [Your Name], a passionate computer science enthusiast exploring the world of SAT solvers. This repository contains a series of SAT solvers built to tackle the Boolean Satisfiability Problem (SAT) using different approaches. 🧠✨
 
-1.Clone or download this repository.
+## 🚀 Algorithms Included
 
-2.Ensure all Python files and .cnf files are in the same directory.
+| Algorithm | File | Description |
+|-----------|------|-------------|
+| Pure Resolution | `pure_resolution.py` | A classic approach that resolves clauses until a contradiction or a fixed point is reached. |
+| Davis-Putnam | `davis_putnam.py` | A variable elimination technique that simplifies the formula using resolution. |
+| DPLL | `dpll.py` | A backtracking algorithm with unit propagation and pure literal elimination. |
+| PySAT Benchmark | `pysat_benchmark.py` | Benchmarking tool to test modern SAT solvers (e.g., Glucose3, Glucose4). |
 
-3.Open a terminal window.
+## 🛠️ How to Run the SAT Solvers
 
-4.Navigate to the project directory using:
+To run one of the solvers, follow these easy steps:
 
-5.cd path/to/your/directory 
+1. Clone or download this repo.
+2. Navigate to the directory.
+3. Run one of the solvers with a CNF file:
 
-6.List files to verify contents:
-    On Windows: dir
-    On Linux/macOS: ls
-
-7.Run a solver with a CNF input file. For example:
-    python Resolution.py sat.cnf
-    Replace Resolution.py with DP.py or DPLL.py to test other solvers.
+```bash
+python dpll.py --input example.cnf
