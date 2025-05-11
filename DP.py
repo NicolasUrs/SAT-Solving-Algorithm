@@ -1,8 +1,8 @@
 """
 Davis-Putnam Resolution SAT Solver
 Reads a DIMACS CNF file and determines satisfiability using the Davis-Putnam algorithm.
-Run the code in terminal as python DP.py sat.cnf for sat
-Run the code in terminal as python DP.py unsat.cnf for unsat
+Run the code in terminal as: python DP.py sat.cnf for sat
+Run the code in terminal as: python DP.py unsat.cnf for unsat
 """
 import sys
 import time
