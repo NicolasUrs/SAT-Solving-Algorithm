@@ -1,6 +1,6 @@
 # SAT-Solving-Algorithm by Urs Nicolas Robert 🚀
 
-Welcome to my SAT solver collection! 🎉 I’m **Urs Nicolas Robert**, a passionate computer science enthusiast exploring the world of SAT solvers. This repository contains a series of SAT solvers built to tackle the Boolean Satisfiability Problem (SAT) using different approaches. 🧠✨
+Welcome to my SAT solver collection! 🎉 I’m **Urs Nicolas Robert**, This repository contains a series of SAT solvers built to tackle the Boolean Satisfiability Problem (SAT) using different approaches. 🧠✨
 
 ## 🚀 Algorithms Included
 
