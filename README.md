@@ -14,8 +14,8 @@ Welcome to my SAT solver collection! 🎉 I’m [Your Name], a passionate comput
 
 To run one of the solvers, follow these easy steps:
 
-1. Clone or download this repo.
-2. Navigate to the directory.
+1. Clone or download this repo or ```bash git clone https://github.com/NicolasUrs/SAT-Solving-Algorithm
+2. Navigate to the directory or cd path/to/your/dir
 3. Run one of the solvers with a CNF file:
 
 ```bash
